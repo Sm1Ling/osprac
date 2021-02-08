@@ -23,7 +23,7 @@ int main()
 	case(0):
 	    printf("Child Process Pid = %d, Ppid = %d\n", (int)getpid(), (int)getppid());
 	    printf("Call for l3\n ");
-	    if(execl("/home/user/Рабочий стол/repo/osprac/./compiledl3.out","./compiledl3.out",
+	    if(execl("./compiledl3.out","./compiledl3.out",
 	    "Argument1","Argument2", NULL) == -1)
 	    {
 		printf("\t Call goes wrong");
