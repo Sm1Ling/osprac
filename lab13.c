@@ -29,7 +29,7 @@ printf("Связь с файлом %s создана\n",namenew);
 
 fw = fopen(namenew, "r");
 if(!fw){
-printf("Recursion level: %d\n",i);
+printf("Recursion level: %d\n",i-1);
 break;
 }
 fclose(fw);
